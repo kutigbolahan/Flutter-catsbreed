@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('data'),
+        title: Text('Cats Breed'),
       ),
       body: FutureBuilder(
         future: httpService.getPosts(),
